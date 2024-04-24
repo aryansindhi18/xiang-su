@@ -1,0 +1,47 @@
+        .btn
+		{
+			width: 100px; background-color: purple; color: white;
+			 padding: 10px; margin-top: 10px;
+			cursor: pointer;
+			text-align: center;
+			margin: auto;
+			/*border-radius: 10px;*/
+			border-radius:20px 0px 20px 0px; /*clock wise*/
+			
+						
+
+		}
+		
+		.btn:hover{
+			background-color: gold;
+			color: black;
+			border-radius: 10px;
+			transition: ease all .5s;
+		}
+		.btn:active /*on click*/
+		{
+			transform: translate(5px,5px);
+			transition: ease all 0s;
+		}
+.hide
+{
+	display: none;
+}
+.show
+{
+	display: block;
+}
+.eye
+{
+	border-top: 1px solid;
+	border-right: 1px  solid;
+	border-bottom: 1px solid;
+	height: 20px;
+	margin-top: 1px;
+}
+.not-ok{
+	color:red;
+}
+.ok{
+	color:green;
+}

@@ -1,0 +1,373 @@
+ #select_team
+        {
+            width: 300px;height: 343px;
+            border-right-style: ridge;
+            position: static;
+        }
+        #select_team ol
+        {
+            list-style: none;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            background-color: white;
+                        margin-right: 0px;
+
+        }
+.rowdiv
+{
+  margin-left: 15px; width: 1030px
+}
+.rowdiv1
+{
+    margin-top: 50px;  margin-left: 315px;
+}
+.first
+{
+    margin-left: -12px;margin-bottom: 0px;
+}
+ .second
+{
+    margin-left: 90px;
+    margin-bottom: 0px;
+}
+.third
+{
+    margin-left: 90px;
+    margin-bottom: 0px
+}
+.insidehover
+{
+    overflow: hidden;
+    border: none;
+}
+.insidehover:hover
+{
+    box-shadow: 1px 1px 10px 1px rgb(239, 239, 239);
+}
+.insidehover img
+{
+    cursor: pointer;
+    transition: transform 1s;
+}
+.insidehover:hover img
+{
+    transform: scale(1.1);
+}
+.caption_heading
+{
+    font-weight:600;line-height: 1.29;
+}
+.caption_heading:hover
+{
+    
+    cursor: pointer;
+    text-decoration: underline;
+}
+.caption_heading_middle1
+{
+    color:#ff1e50;font-weight: bolder;
+    
+}
+.caption_heading_middle2
+{
+        color:black;font-weight: bolder;
+
+}
+.caption_heading_middle3
+{
+    color:#7e8991;font-weight:bolder;
+}
+.caption_heading_middle1:hover
+{
+    cursor: pointer;
+}
+.caption_heading_middle2:hover
+{
+    cursor: pointer;
+}
+.caption_heading_middle3:hover
+{
+    cursor: pointer;
+}
+
+
+       /* .flag
+        {
+            background-image: url(Pics/india.png);
+            background-size: 203px 180px;
+            width: 17px;
+            height: 23px;
+            background-position: -100px -90px;
+            display: inline-block;
+        }*/
+    #select_team li
+        {
+            width: 90%;
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,.21);
+            border: 1px solid white;
+            background-image: linear-gradient(270deg,#ff1e50,#232882);
+            color: white;
+            border-radius: 32px;
+            padding-left: 5px;
+           /* align-items: center;*/
+            font-size: 1.3rem;
+            margin-top: 2px;
+            margin-left: -40px;
+            line-height: 30px; 
+            cursor: pointer;
+            font-family: monospace;
+        }
+    .capital1
+    {
+        text-transform: uppercase;line-height: 30px; font-weight: bold;   
+    }
+        .logo
+        {
+            width: 20px;
+            height: 20px;
+            float:left;
+            margin-top: 5px;
+            margin-left: 10px;
+            margin-right: 5px;
+           
+            background-size: contain;
+        }
+ .logo1
+        {
+            width: 220px;
+            height: 60px;
+            float: left;
+            background-image: url(../Pics/World-3.PNG);
+            background-size: contain;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+.white
+        {
+            color: white;
+            width: 16%;
+        }
+.india
+{
+     background-image: url(../Pics/india4.png);
+}
+.australia
+{
+    background-image: url(../Pics/australia1.png);
+}
+.newzealand
+{
+        background-image: url(../Pics/new-zealand.png);
+
+}
+.pakistan
+{
+    background-image: url(../Pics/pakistan.png);
+}
+.south_africa
+{
+        background-image: url(../Pics/south-africa.png);
+
+}
+.sri_lanka
+{
+            background-image: url(../Pics/sri-lanka.png);
+
+}
+.england
+{
+                background-image: url(../Pics/england.png);
+
+}
+.bangladesh
+{
+                    background-image: url(../Pics/bangladesh.png);
+
+}
+   
+.afghanistan
+{
+                        background-image: url(../Pics/afghanistan.png);
+
+}
+.westindies
+{
+                        background-image: url(../Pics/westindies.png);
+
+}
+ .btn1
+{
+    
+}
+.btn1:active
+{
+    transform: translate(2px,2px);
+    transform: ease all 1s;
+}
+.page_header_background
+{
+    width: auto;
+    height: 180px;
+    border-bottom-left-radius: 70% 10%;
+    border-bottom-right-radius: 70% 10%;
+    position: relative;
+    background-color: #232882;
+    clip-path:ellipse(120% 100% at 50% 0);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.page_banner_header
+{
+    padding-bottom: 3.6rem;
+    padding: 0rem 0;
+    background-position: 90% top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+.cell_position::after
+{
+    right: .5rem;
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1.6rem;
+    width: 1px;
+    background-color: rgba(0,0,0,.1);
+}
+.middle_rightBdr
+{
+    border-right : 1px black solid;width: 75px;text-align: center;border-right-color:rgba(0,0,0,.1); 
+}
+.middle_rightBdr1
+{
+    border-right : 1px black solid;width: 420px;border-right-color:rgba(0,0,0,.1); 
+}
+.middle1
+{
+text-align: center;
+}
+.bg_graphic--header
+{
+    background: #232882;
+}
+.bg_graphic
+{
+    overflow: hidden;
+}
+
+.wrapper
+{
+    width: 100%;
+    max-width: 136rem;margin: 0 auto;
+    
+}
+.bg_graphic_element
+{
+    background:linear-gradient(260deg,#ff1e50 20%,#232882 65% );
+    color: #ff1e50;
+     opacity: 1;
+    right: 0rem;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.35s;
+    z-index: auto;
+    
+}
+.bg_graphic_element,.bg_graphic,.bg_graphic--header
+{
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 64rem;
+    height: 60rem;
+    text-indent: -9999px;
+    border-radius: 100%;
+   
+}
+.fixed1
+{
+    position: fixed;
+     top:0px;
+    width:100%;
+    z-index:2000;
+}
+.fixed2
+{
+    position: absolute;
+}
+.bg_graphic--header,.bg_graphic_element
+{
+    position: relative;
+    font-size: 108rem;
+    line-height: 80rem;
+    font-family: fantasy;
+    font-weight: 600;
+}
+
+.page_header_subtitle {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 1.55px;
+    line-height: normal;
+    line-height: 1.5;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 2000;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 31px;
+    width: 31%;
+    margin-left: 35%;
+}
+.border_bottom
+{
+    border-bottom-left-radius: 20px;
+}
+.poster
+{
+    float: left;
+    width: 1020px;
+}
+.innerposter
+{
+    width: 330px;
+    float:left;
+}
+.help
+{
+    margin-top: 10px;
+    float: left;
+}
+.hide1
+{
+	display: none;
+}
+.show1
+{
+	display: block;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+ .header_1
+        {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width:inline auto;
+            font-weight: 600;
+            font-size: 30;
+            color: #ff1e50;
+            text-align: center;
+            float:left;
+            font-style: normal;
+            font-weight: bold;
+            font-family:sans-serif;
+        }
